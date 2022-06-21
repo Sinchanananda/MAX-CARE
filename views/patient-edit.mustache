@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>This is the edit meds page</h1>
+
+        <form class="" action="/patient/edit/{{patient.id}}" method="post">
+  <input type="text" name="admittedNumber" value="{{patient.id}}" placeholder="">
+  <input type="text" name="medicineName" value="{{patient.name}}" placeholder="">
+  <input type="text" name="diagnosedType" value="{{patient.diagnosed_type}}" placeholder="">
+  <input type="text" name="admittedDate" value="{{patient.admitted_date}}" placeholder="">
+<button type="submit" name="button">Save</button>
+</form>
+    </body>
+</html>

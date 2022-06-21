@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Edits Doctor page</h1>
+    <form class="" action="/doctor/edit/{{doctor.id}}" method="post">
+<input type="text" name="id" value="{{doctor.id}}" placeholder="">
+<input type="text" name="name" value="{{doctor.name}}" placeholder="">
+<input type="text" name="dept" value="{{doctor.dept}}" placeholder="">
+<input type="text" name="experience" value="{{doctor.experience}}" placeholder="">
+<input type="text" name="degree" value="{{doctor.degree}}" placeholder="">
+<input type="text" name="available_time" value="{{doctor.available_time}}" placeholder="">
+<input type="text" name="to_till" value="{{doctor.to_till}}" placeholder="">
+<button type="submit" name="button">Save</button>
+</form>
+  </body>
+</html>
