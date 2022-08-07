@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <title>SignIn on OneMile</title>
-
-	<link rel="shortcut icon" href="css and js/login img/3.png" type="image/x-icon">
+    <title>SignIn on MaxCare</title>
 	<link rel="stylesheet" href="css and js/login css/style.css">
    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
@@ -17,21 +15,16 @@
     <h2>LOGIN</h2>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		{{!-- <form action="/register" method="POST"> --}}
-		<form action="/signin" method="POST">
+		<form action="login.html" method="POST">
 			
 			<h1>Sign in</h1>
 			<div class="social-container">
 					<div class="flip-card">
 					<div class="flip-card-inner">
 						<div class="flip-card-front">
-							{{!-- <a href="#"  class="fa fa-facebook"></a>
-							<a href="#" class="fa fa-twitter"></a>
-							<a href="#" class="fa fa-google"></a> --}}
+							
 							<div class="flip-card-back">
-								{{!-- <a href="#" class="fa fa-facebook"></a>
-								<a href="#" class="fa fa-twitter"></a>
-								<a href="#" class="fa fa-google"></a> --}}
+								
 							</div> 
 						</div>
 					</div>
@@ -43,13 +36,13 @@
 				
 				<input type="submit" onclick="popup()" name="SignIn" class="btnsd" value="Sign In">
 				
-				<a class="abtn"  href="/register">Sign Up</a>
+				<a class="abtn"  href="register.html">Sign Up</a>
 			<script>
     function popup(){
       swal("Good", "Login In", "success")
     }
 </script>
-				{{!-- <a href="#" class="fra" >Forgot your password?</a> --}}
+				
 			</form>
 			
 		</div>
@@ -69,16 +62,8 @@
 </div>
 	</div>
 
-<!-- 
-      <footer>
-
-        <div class="center">
-
-        copyright &copy; www.MaxCARE. ALL RIGHTS RESERVED
-
-        </div>
-      </footer> -->   <footer>
-            <span>Created By <a href="/">MaxCARE</a> |  <span >copyright &copy | www.OneMile |</span> 2020 All rights reserved.</span>
+   <footer>
+            <span>Created By <a href="/">MaxCare</a> |  <span >copyright &copy | www.MaxCare |</span> 2020 All rights reserved.</span>
         </footer>
 <script src="css and js/login js/effect.js">
 	

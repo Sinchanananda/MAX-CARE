@@ -3,27 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signUp on MaxCARE</title>
+    <title>SignUp on MaxCare</title>
 	<link rel="stylesheet" href="css and js/login css/style.css">
    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="server.js"></script>
-{{!-- <meta name="google-signin-client_id" content="810815498953-0vdj4up0bmd2rao9sfjcof3cvgjatrcr.apps.googleusercontent.com"> --}}
+
 </head>
 <body>
     <h2>LOGIN</h2>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="/register" method="POST">
+		<form action="register.html" method="POST">
 			<h1>Create Account</h1>
 			<div class="social-container">
 					<div class="flip-card">
 					<div class="flip-card-inner">
 						<div class="flip-card-front">
-							{{!-- <a href="#"  class="fa fa-facebook"></a>
-							<a href="#" class="fa fa-twitter"></a>
-							<a href="#" class="fa fa-google"></a> --}}
+							
 							<div class="flip-card-back">
 								{{!-- <a href="#" class="fa fa-facebook"></a>
 								<a href="#" class="fa fa-twitter"></a>
@@ -37,7 +35,7 @@
     auth2.signOut().then(function () {
       console.log('User signed out.');
     });
-  } --}}
+  } 
 </script>
 							</div> 
 						</div>
@@ -47,13 +45,14 @@
 				<input type="text" name="Name" placeholder="Name" required/>
 				<input type="email" name="Email" placeholder="Email" required/>
 				<input type="password" name="Password" placeholder="Password" required/>
+				<input type="password" placeholder="Confirm Password" name="ConfirmPassword" required/>
 				
 				<input type="submit" onclick="popup()" name="Sign Up" class="btnsd" value="Sign Up">
 				
-				<a class="abtn"  href="/signin">Sign In</a>
+				<a class="abtn"  href="login.html">Sign In</a>
 					<script>
     function popup(){
-      swal("Good", "You data is secure with sus", "success")
+      swal("Good", "You data is secure with us", "success")
     }
 </script>
 			</form>
@@ -67,7 +66,7 @@
 				<h1>Hello, Friend!</h1>
 				<p>Enter your personal details and start journey with us</p>
 				<button class="ghost" id="signUp">Sign Up</button>
-			<a href="/signin">	<button  class="ghost" id="signIn">Sign In</button></a>
+			<a href="login.html">	<button  class="ghost" id="signIn">Sign In</button></a>
 
 			</div>
 		</div>
@@ -75,22 +74,12 @@
 </div>
 	</div>
 
-<!-- 
-      <footer>
-
-        <div class="center">
-
-        copyright &copy; www.MaxCARE. ALL RIGHTS RESERVED
-
-        </div>
-      </footer> -->   <footer>
-            <span>Created By <a href="/">MaxCARE Team</a> |  <span >copyright &copy | www.OneMile |</span> 2020 All rights reserved.</span>
+   <footer>
+            <span>Created By <a href="/">MaxCare</a> |  <span >copyright &copy | www.MaxCare |</span> 2020 All rights reserved.</span>
         </footer>
 <script src="css and js/login js/effect.js">
 	
 </script>
-{{!-- <script src="https://apis.google.com/js/platform.js" async defer></script>
- --}}
 
         
 

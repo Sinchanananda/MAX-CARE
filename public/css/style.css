@@ -1,0 +1,269 @@
+body{
+  font-family: "Montserrat";
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+   
+    background-color: #fff;
+}
+  
+  .coloured-section{
+  background-image: url("med6.jpg");
+  height: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding-top: 50px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0%;
+    overflow: hidden;
+    font-weight: normal;
+	  font-family: 'Orienta', sans-serif; 
+	  line-height: 42px;
+    font-size: 20px;
+  }
+  
+
+  
+  li a {
+    display: block;
+    color: #337ab7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #fff;
+  }
+  
+  
+
+  .navbar-brand{
+    
+    color: #337ab7;
+	  font-weight: normal;
+	  font-family: 'Orienta', sans-serif; 
+    font-size: 36px;
+	  line-height: 42px;
+    text-shadow: 0 2px  black, 0 3px #777;
+   
+    padding-top: 100px;
+    letter-spacing: 1px;
+    padding-left: 550px;
+   
+	
+  }
+
+  .navbar-brand1{
+    color: #337ab7;
+	  font-weight: normal;
+	  font-family: 'Orienta', sans-serif; 
+    font-size: 36px;
+	  line-height: 42px;
+    text-shadow: 0 2px  black, 0 3px #777;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    padding-left: 500px;
+    
+
+
+  }
+
+  .navbar-brand2{
+    color: #337ab7;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-shadow: 0 2px black, 0 3px #777;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-left: 500px;
+	
+  }
+
+  .panel{
+    
+      
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    padding-left: 500px;
+    cursor: pointer;
+   
+    padding-top: 40px;
+    border-radius: 8px;
+}
+
+.button1 {
+  background-color: #337ab7; 
+  color: whitesmoke; 
+  border-radius: 8px;
+  width: 250px;
+}
+
+.button1:hover {
+  background-color: #fff;
+  color: black;
+
+}
+
+.button2 {
+  background-color: #337ab7; 
+  color: whitesmoke;
+  border-radius: 8px;
+  width: 250px;
+  }
+
+.button2:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+  .white-section{
+    background-color: azure;
+    width: 100%;
+    height: 85%;
+
+  }
+
+  .section1{
+    color: #337ab7;
+	  font-weight: normal;
+	  font-family: 'Orienta', sans-serif; 
+    font-size: 36px;
+	  line-height: 42px;
+    text-shadow: 0 2px  black, 0 3px #777;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    padding-top: 100px;
+	
+  }
+
+  h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .feature-box{
+    text-align: center;
+    padding-top: 100px;
+    padding: 5%;
+    color: #337ab7;
+    
+  }
+
+  .fa-desktop{
+    overflow: visible;
+    width: 1.125em;
+    margin-bottom: 1rem;
+    font-size: 4em;
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+    box-sizing: border-box;
+    
+  }
+  
+  .fa-heart{
+    color: #337ab7;
+  }
+
+  #testimonial{
+    background-color: #6fcef2;
+  
+  }
+
+  .coloured-section{
+    background-image: url("med6.jpg");
+  height: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  }
+
+  .blog{
+    background-image: url("med6.jpg");
+    height: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      padding-top: 50px;
+  }
+
+  .carousel {
+    position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  align-items: center;
+  width: 100%;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease,-webkit-transform .6s ease;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #337ab7;
+  text-shadow: 1px 2px whitesmoke;
+  text-align: center;
+  
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.contact{
+  background-color: azure;
+  width: 100%;
+  height: 50%; 
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
